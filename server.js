@@ -7,7 +7,7 @@ const app = express();
 
 // iniciando o database
 mongoose.connect(
-  'mongodb://localhost:27017/nodeapi', 
+  'mongodb://localhost:27017/nodeapi' ,
   { useNewUrlParser: true }
 );
 requireDir('./src/models');
